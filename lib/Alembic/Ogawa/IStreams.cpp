@@ -176,7 +176,7 @@ private:
                   void * oBuf,
                   Alembic::Util::uint64_t iOffset,
                   Alembic::Util::uint64_t iSize)
-	{
+    {
         void * buf = oBuf;
         Alembic::Util::uint64_t offset = iOffset;
         Alembic::Util::uint64_t totalRead = 0;
